@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>Profile Page</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
+    <div class="header__wrapper">
+      <header></header>
+      <div class="cols__container">
+        <div class="left__col">
+          <div class="img__container">
+            <img src="img/user.jpeg" alt="Kim Le" />
+            <span></span>
+          </div>
+          <h2>Kim Le</h2>
+          <p>UI/UX Design Student</p>
+          <p>Lengan@msu.edu</p>
+
+          <ul class ="about">
+            <li><span>152</span>Followers</li>
+            <li><span>534</span>Following</li>
+            <li><span>2,163</span>Views</li>
+          </ul>
+
+          <div class="content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quidem perferendis, optio similique quisquam beatae veritatis modi tempora mollitia, voluptatum, incidunt nisi voluptatibus nostrum error? Ratione atque minima quo aspernatur.
+            </p>
+
+            <ul>
+              <li><i class="fab fa-pinterest"></i></li>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-behance"></i></li>
+              <li><i class="fab fa-dribbble"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="right__col">
+          <nav>
+            <ul>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Inspirations</a></li>
+              <li><a href="#">Shared</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <button>Follow</button>
+          </nav>
+
+          <div class="photos">
+            <img src="img/img_1.avif" alt="Photo" />
+            <img src="img/img_1.avif" alt="Photo" />
+            <img src="img/img_1.avif" alt="Photo" />
+            <img src="img/img_1.avif" alt="Photo" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
