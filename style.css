@@ -23,7 +23,7 @@ a {
 
 .header__wrapper header{
     width: 100%;
-    background: url(../img/bg.jpeg) no-repeat 50% 20% / cover;
+    background: url(image6.png) no-repeat 50% 20% / cover;
     min-height: calc(100px + 15vw);
 }
 
@@ -66,6 +66,7 @@ a {
     margin-top: 60px;
     font-weight: 600;
     font-size: 22px;
+    color: #18462F;
     margin-bottom: 5px;
 }
 
@@ -89,7 +90,7 @@ a {
 }
 
 .header__wrapper .cols__container .left__col .about li span{
-    color: #1d1d1d;
+    color: #18462F;
     font-weight: 600;
 }
 
@@ -140,7 +141,7 @@ a {
 }
 
 .header__wrapper .cols__container .right__col nav button{
-    background: #0091ff;
+    background: #006635;
     color: #fff;
     border: none;
     padding: 10px 25px;
@@ -150,7 +151,7 @@ a {
 }
 
 .header__wrapper .cols__container .right__col nav ul li:nth-child(1) a{
-    color: #1d1d1d;
+    color: #18462F;
     font-weight: 600;
 }
 
